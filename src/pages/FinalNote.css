@@ -1,0 +1,65 @@
+.final-note {
+  background: linear-gradient(to bottom, #ffd1dc, #fff);
+  min-height: 100vh;
+  text-align: center;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation: fadeIn 2s ease-in;
+}
+
+.final-heading {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.8rem;
+  color: #b30059;
+}
+
+.final-message {
+  font-size: 1.2rem;
+  color: #444;
+  max-width: 700px;
+  margin: 1.5rem auto;
+  line-height: 1.8;
+}
+
+.rewind-button {
+  border-radius: 30px;
+  font-weight: bold;
+  padding: 10px 25px;
+  margin-top: 2rem;
+}
+
+.final-signature {
+  margin-top: 3rem;
+  font-style: italic;
+  color: #ffd1dc;
+}
+.rewind-button {
+  background-color: #ff99cc;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  padding: 10px 25px;
+  margin-top: 2rem;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(255, 153, 204, 0.4);
+}
+
+.rewind-button:hover {
+  background-color: #ff66b2;
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(255, 102, 178, 0.5);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

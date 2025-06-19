@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff0f5;
+  
+}
+
+.container {
+  max-width: 960px;
+}
+/* Ensure full height layout */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Make main app area expand to push footer down */
+.app-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff0f5;
+}
+.section-area:not(:last-child) {
+  border-bottom: 1px solid rgba(255, 192, 203, 0.15); /* subtle separator */
+}

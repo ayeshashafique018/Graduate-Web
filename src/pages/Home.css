@@ -1,0 +1,62 @@
+.home-wrapper {
+  background: #fff0f5;
+  min-height: 100vh;
+  font-family: 'Quicksand', sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 4rem 1rem;
+  scroll-margin-top: 70px;
+  /* border-bottom:  #ffb6c1; */
+}.congrats-banner {
+  background: linear-gradient(to bottom, #ffd6e6, #fff0f5);
+  /* border-bottom: 2px dotted #f5a8c2; */
+}
+.congrats-banner {
+  background: linear-gradient(to bottom, #ffd6e6, #fff0f5);
+  /* border-bottom: 2px dotted #f5a8c2; */
+}
+
+.congrats-heading {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.2rem;
+  color: #b30059;
+  margin-bottom: 0.2rem;
+}
+
+.engineer-subheading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  color: #ff4d88;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.congrats-heading {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  color: #b30059;
+  text-shadow: 1px 1px 2px #ffcce0;
+}
+
+.home-wrapper {
+  background:  #fff0f5;
+  padding-top: 70px;
+  overflow-x: hidden; /* removes unwanted side scroll */
+}
+
+.section-area {
+  padding: 60px 20px;
+  border: none; /* Removes dotted or any borders */
+  scroll-margin-top: 80px; /* Prevents navbar from covering content */
+}
+
+/* Optional soft fade between sections */
+.section-area:not(:last-child) {
+  border-bottom: 1px solid rgba(255, 192, 203, 0.2); /* very light separator */
+}
