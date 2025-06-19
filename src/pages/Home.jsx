@@ -13,11 +13,12 @@ import './Home.css'; // custom pink styles
 const Home = () => {
   return (
     <div className="home-wrapper container-fluid px-0">
-     <div className="congrats-banner text-center py-5">
+    <div className="congrats-banner text-center py-5 px-3 px-md-5">
   <h1 className="congrats-heading">🎓 CONGRATULATIONS</h1>
   <h2 className="engineer-subheading">AI ENGINEER ALEENA</h2>
   <p className="lead text-muted">A proud moment sealed with code, love, and dreams 💖</p>
 </div>
+
 
 
       <section id="timeline" className="section-area"><Timeline /></section>

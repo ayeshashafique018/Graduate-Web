@@ -12,7 +12,52 @@ section {
   padding: 4rem 1rem;
   scroll-margin-top: 70px;
   /* border-bottom:  #ffb6c1; */
-}.congrats-banner {
+}
+
+
+.congrats-banner {
+  background-color: #ffe4ec; /* light pink background */
+  color: #d63384; /* bootstrap pink tone */
+  padding: 4rem 2rem;
+  border-bottom: 2px solid #ffb6c1;
+}
+
+.congrats-heading {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.engineer-subheading {
+  font-size: 2rem;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.lead {
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+}
+
+/* Responsive adjustments for smaller devices */
+@media (max-width: 768px) {
+  .congrats-heading {
+    font-size: 2rem;
+  }
+
+  .engineer-subheading {
+    font-size: 1.5rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+
+  .congrats-banner {
+    padding: 2rem 1rem;
+  }
+}
+
+.congrats-banner {
   background: linear-gradient(to bottom, #ffd6e6, #fff0f5);
   /* border-bottom: 2px dotted #f5a8c2; */
 }
@@ -60,3 +105,5 @@ section {
 .section-area:not(:last-child) {
   border-bottom: 1px solid rgba(255, 192, 203, 0.2); /* very light separator */
 }
+
+
